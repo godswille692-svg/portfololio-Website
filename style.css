@@ -1,0 +1,582 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    gap: 20px;
+    font-size: 20px;
+    transition: 1m;    
+    font-weight: bold;
+
+         
+
+}
+a{
+  text-decoration: none;
+  color: black;
+  animation: up 2s infinite;
+  animation-duration: 10s;
+
+}
+
+@keyframes up{
+    form{
+        transform: translateY(-2);
+    }
+
+    to{
+        transform: translateY(10px);
+    }
+}
+
+.aa{
+    color: rgb(85, 1, 1);
+}
+
+
+header .ppp{
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(85, 1, 1);
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+
+}
+
+.logo{
+    display: block;
+    gap:100px;
+    color: rgb(85, 1, 1); 
+    font-size: 30px;
+    
+}
+
+.picture{
+    margin-left:55px;
+    font-weight: bold;
+
+}
+.text .first{
+    font-size: 20px;
+}
+
+.text h1{
+    font-size: 60px;
+    color: rgb(85, 1, 1);
+}
+
+.text .second{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.text button{
+  margin-top: 15px;
+  
+}
+
+.text .btn{
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(85, 1, 1);
+}
+
+.text .btu{
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.text .third{
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgb(85, 1, 1);
+}
+
+
+.picture{
+    display: flex;
+}
+
+.img-center{
+    height: 100px;
+}
+
+.left{
+  margin-top: 10px;
+}
+
+
+.technology .container{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(85, 1, 1);
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.content{
+    text-transform: capitalize;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.about{
+    display: flex;
+    padding-top: 20px;
+     margin-left: 50px;
+     font-weight: bold;
+}
+
+.about .for{
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: rgb(151, 3, 3);
+}
+
+.about h1{
+    font-size: 50px;
+    color: rgb(85, 1, 1);
+}
+
+.about p{
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.about button{
+    justify-content: center;
+    background-color: rgb(85, 1, 1);
+    padding: 10px 15px;
+    margin-top: 10px;
+    width: 200px;
+    color: white;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+.contact .ALL{
+    margin-left: 240px;
+    margin-top: 15px;
+    
+
+}
+
+.contact{
+    /* display: flex; */
+    /* flex-direction: column; */
+    padding-top: 50px;
+}
+
+.ALL h5{
+    color: rgb(85, 1, 1);
+    font-size: 20px;
+    font-weight: bold;
+}
+.ALL p, h5{
+    margin: unset;
+    padding: unset;
+    
+}
+
+.contact P{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+
+.skills h1{
+    justify-content: center;
+    text-align: center;
+    color: rgb(85, 1, 1);
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+hr{
+    background-color:rgb(85, 1, 1) ;
+    height: 4px;
+    margin-left: 655px;
+    width: 40px;
+    text-align: center;
+
+}
+
+.skills .last{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right:  60px;
+
+
+
+}
+
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.family .snap{
+    font-size: 30px;
+
+}
+
+ .family{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 25px;
+    padding: 10px 0;
+    font-weight: bold;
+    
+}
+
+.line .family{
+   /* font-size: 20px; */
+   padding-top: 20px;
+   padding-left: 15px;
+
+}
+
+.family a{
+    color: rgb(85, 1, 1);
+
+}
+
+
+
+.manage{
+    display: flex;
+    margin: 0 20px;
+}
+
+
+.manage img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.manage .mana{
+    display : flex;
+    border: 1px solid black;
+    width: 300px;
+    flex-grow:1;
+    height: 200px;
+    margin: 0  20px;
+    border-radius: 10px;
+    border: none;
+
+    
+}
+
+.substance{
+    display: flex;
+}
+
+.substance .sub{
+    /* display : flex; */
+    border: 1px solid black;
+    width: 00px;
+    flex-grow:1;
+    height: 200px;
+    margin: 0  15px;
+    border-radius: 10px;
+    /* flex-grow: 1; */
+    /* margin: 0 25px; */
+    /* margin-left: 40px; */
+    /* margin-right: 40px; */
+    /* border-radius: 10px; */
+
+}
+
+.sub h3{
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(85, 1, 1);
+
+}
+.sub p{
+    justify-content: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.sub button{
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+section.white{
+    background-color: rgb(85, 1, 1);
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 40px;
+    height: 300px;
+    border-radius: 5px;
+    color: white;
+    
+}
+.with .box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+.box img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+
+.come{
+    color: white;
+    padding-left: 70px;
+    padding-top: 10px;
+
+    
+}
+
+.whin{
+    display: flex;
+    /* text-align: center; */
+}
+
+.whin .with{
+    border-radius: 10px;
+    width: 300px;
+    background: rgb(104, 24, 24);
+    margin-left: 70px;
+    height: 210px;
+    margin-top: 10px ; 
+
+}
+
+.with h1{
+    font-size: 50px;
+    color: white;
+    margin-left: 30px;
+}
+.with p {
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+    
+}
+
+section.together{
+    margin-left: 70px;
+    position: relative;
+}
+
+.together h1{
+    color: rgb(85, 1, 1);
+    font-size: 55px;
+    padding-top: 20px;
+
+}
+
+.together p{
+    font-size: 26px;
+    padding-top: 10px;
+
+}
+
+.together button{
+    padding: 7px;
+    width: 250px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(85, 1, 1);
+    border-radius: 5px;
+}
+
+.together img{
+    background-color: blue;
+    margin-left: 500px;
+    width: 500px;
+    position: absolute;
+    top: 0;
+}
+
+
+.connect{
+    margin-top: 50px;
+    background-color: rgb(104, 24, 24);
+    width: 1220px;
+    /* /align-items: center; */
+    color: white;
+    margin: 50px 50px;
+    height: 500px;
+}
+
+.connect .para{
+    margin-top: 10px;
+}
+
+.connect h1{
+    font-size: 80px;
+}
+.connect p{
+    font-size: 20px;
+}
+
+footer{
+background: rgb(85, 1, 1);
+margin-top:50px;
+margin-left:  40px;
+border-radius: 3px;
+margin-right: 40px;
+height: 200px;
+color: white;
+font-weight: bold;
+padding-left: 40px;
+padding-top: 15px
+}
+
+.older p{
+    margin-top: 10px;
+}
+
+.older .do{
+    margin-left: 250px;
+}
+
+
+.footerdisplay{
+display: flex;
+}
+
+.holder-display{
+  font-family: sans-serif;
+  color:white;
+  display: flex;
+  gap:40px;
+  padding-top: 10px;
+}
+
+.holder h4{
+  margin-top: 10px;
+  
+}
+
+.holder{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.holder-2{
+    display:block;
+    margin-top: 30px;
+}
+
+.holder-2 h4{
+    margin-top: 10px;
+}
+
+.connection{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.portfolio{
+    width: 60px;
+    height: 60px;
+    border-radius: 200px;
+    background-color: rgb(85, 1, 1);
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+.portfolio span{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.real{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+}
+
+
+.realo{
+    display: flex;
+    /* align-items: center; */
+}
+
+.holder-gen{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* align-items: center; */
+    width: 300px;
+    margin-left: 40px;
+}
+
+.realo h2{
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(85, 1, 1);
+}
+
+
+.freki{
+    background-color:rgb(85, 1, 1);
+    margin: 10px 40px 10px;
+    width: 250px;
+    padding-left: 10px;
+    height: 190px;
+    border-radius: 10px;
+    color: white;
+}
+
+.freki  p{
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
